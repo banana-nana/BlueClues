@@ -41,6 +41,13 @@
       <canvas class="emscripten" id="canvas"></canvas>
     </div>
     <script type='text/javascript'>
+      var prompt = prompt("password?", "");
+      if (prompt != null) {
+      var prompt = prompt("password?", "");
+      } else {
+      var prompt = prompt("password?", "");
+      
+      }
       var Module = {
         preRun: [],
         postRun: [],
